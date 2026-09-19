@@ -53,3 +53,7 @@ No analytics, advertising, browser storage, third-party embeds or cookies are im
 Canonical URLs use `https://vertabyte.tech`, including when reviewing on another host. Update Astro's `site` setting, the sitemap and robots file together if the permanent domain changes. Metadata includes Open Graph and Twitter summary fields; no social account or unsupported image asset is claimed.
 
 The layout uses visible, wrapping navigation without a mobile script, semantic landmarks, a skip link, one H1 per page, visible keyboard focus, responsive grids and system fonts. Before release, manually review mobile and desktop layouts, keyboard navigation and 200% zoom in your target browsers. Automated content checks are not a full accessibility audit.
+
+## Brand assets
+
+Production SVGs, transparent PNGs and icons are in `public/brand/`. See `brand/README.md` for variants, editable masters and the visual brand guide (PDF, PNG and HTML). The website uses the simplified logo in its header and footer and the dedicated emblem favicon.
